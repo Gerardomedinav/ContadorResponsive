@@ -4,7 +4,7 @@ Este proyecto tiene como objetivo integrar Chakra UI con useState en React para 
 
 ## Captura de Pantalla
 
-![Captura de Pantalla del Contador](miapp/src/screenshots/captura.png)
+![Captura de Pantalla del Contador](./src/screenshots/captura.png)
 
 ## Tecnologías utilizadas
 
