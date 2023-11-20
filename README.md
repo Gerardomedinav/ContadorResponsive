@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Contador Responsive con Chakra UI y useState
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto tiene como objetivo integrar Chakra UI con useState en React para desarrollar un contador interactivo con diseño responsive.
 
-## Available Scripts
+## Captura de Pantalla
 
-In the project directory, you can run:
+![Captura de Pantalla del Contador](screenshots/captura.png)
 
-### `npm start`
+## Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Chakra UI
+- useState
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instrucciones
 
-### `npm test`
+### Instalación de Chakra UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Asegúrate de tener Chakra UI instalado en tu proyecto de React. Puedes seguir las instrucciones de instalación en la [documentación oficial de Chakra UI](https://chakra-ui.com/docs/getting-started).
 
-### `npm run build`
+### Creación del Componente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crea un nuevo componente funcional en React llamado `ContadorResponsive`. Utiliza `useState` para mantener un estado interno que representará el contador.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Integración con Chakra UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Utiliza los componentes proporcionados por Chakra UI para diseñar el contador. Asegúrate de que el diseño inicial sea atractivo y funcional en dispositivos de pantalla grande.
 
-### `npm run eject`
+### Diseño Responsive
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ajusta el diseño del contador para que sea responsive en dispositivos de pantalla más pequeña. Utiliza las utilidades de diseño responsivo de Chakra UI, como Flex, Grid, o Stack, para organizar los elementos de manera eficiente en pantallas más pequeñas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Media Queries Opcionales
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Opcionalmente, puedes utilizar media queries en CSS para realizar ajustes finos en el diseño responsive, si lo consideras necesario.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Pruebas en Dispositivos Móviles
 
-## Learn More
+Asegúrate de probar el contador en dispositivos móviles para garantizar que el diseño responsive funcione como se espera.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Estilo Personalizado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Personaliza el estilo del contador utilizando las opciones de estilo ofrecidas por Chakra UI. Asegúrate de que el estilo sea coherente en todos los tamaños de pantalla.
 
-### Code Splitting
+### Animación Opcional
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Opcionalmente, puedes agregar una animación sutil a los cambios de valor del contador, teniendo en cuenta la experiencia del usuario en dispositivos móviles.
 
-### Analyzing the Bundle Size
+## Descarga y Ejecución del Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Abre el repositorio del proyecto en Git y busca el botón "Code" o "Clone". Haz clic en él y copia la URL del repositorio.
 
-### Making a Progressive Web App
+2. Abre tu terminal o línea de comandos y navega hasta la ubicación donde deseas guardar el proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Ejecuta el siguiente comando en la terminal para clonar el repositorio en tu máquina local:
 
-### Advanced Configuration
+  
+   git clone <URL del repositorio>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   Reemplaza <URL del repositorio> con la URL que copiaste anteriormente.
 
-### Deployment
+Una vez que se haya clonado el repositorio, navega a la carpeta del proyecto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+bash
+Copy code
+cd <nombre de la carpeta del proyecto>
+Reemplaza <nombre de la carpeta del proyecto> con el nombre de la carpeta que se creó al clonar el repositorio.
 
-### `npm run build` fails to minify
+A continuación, instala las dependencias del proyecto ejecutando el siguiente comando:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+npm install
+Esto instalará todas las dependencias necesarias para ejecutar el proyecto.
+
+Después de que se completen las instalaciones, puedes ejecutar el proyecto con el siguiente comando:
+
+
+npm start
+Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
+
+¡Ahora deberías poder ver y utilizar el proyecto en tu máquina local!
