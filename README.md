@@ -79,3 +79,4 @@ npm start
 Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
 
 ¡Ahora deberías poder ver y utilizar el proyecto en tu máquina local!
+"# ContadorResponsive" 
